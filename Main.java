@@ -17,7 +17,7 @@ public class Main {
    */
   public static void main(String[] args) {
     // store method into variable so it can be printed to screen
-    int last = lastDigit(-1183);
+    int last = Math.abs(lastDigit(-1183));
     // this will print the last digit to the screen
     System.out.println(last);
   }
